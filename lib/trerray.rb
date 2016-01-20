@@ -19,17 +19,17 @@ class Trerray
 
   # returns the index of the left child of the item at index i
   def left(i)
-    # Fill this in
+    index_left = (2*i) + 1
   end
 
   # returns the index of the left child of the item at index i
   def right(i)
-    # Fill this in
+    index_right = (2*i)+ 2
   end
 
   # returns the index of the parent
   def parent(i)
-    # Fill this in
+    index_parent = ((i-1)/2)
   end
 
   def get_children(i)
@@ -45,6 +45,8 @@ class Trerray
   end
 
 end
+
+
 
 # Bonus:  In pseudocode -
 #         What operations could you do on this tree to ensure
